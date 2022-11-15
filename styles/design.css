@@ -1,0 +1,172 @@
+body {
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.flexbox-home {
+  max-width: 960px;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.flexbox-about {
+  max-width: 1920px;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.flexbox-project{
+  max-width: 1280px;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.flex-container {
+  display: flex;
+  margin: auto;
+}
+
+.component {
+  padding: 25px;
+}
+
+.portrait {
+  flex: 2;
+  align-items: center;
+}
+
+.main p{
+  flex: 3;
+}
+
+.icon{
+  flex:2;
+  float: right;
+}
+
+.ithaca {
+  flex:1;
+}
+
+.vegas{
+  flex:4;
+}
+
+.hobbies{
+  flex:3;
+}
+
+.contact{
+  flex:3;
+}
+
+.lv{
+  align-items: center;
+}
+
+.lv cite{
+  white-space:nowrap;
+}
+
+.meganium{
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  text-align: left;
+  color: black;
+}
+
+li a {
+  color:black;
+  margin: 0px;
+  font-family: "Lemon Milk", sans-serif;
+  font-weight: lighter;
+  font-variant:small-caps;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#03444d;
+}
+
+h1 {
+  color: black;
+  margin: 0px;
+  font-family: "Lemon Milk", sans-serif;
+  font-weight: lighter;
+  font-variant: small-caps;
+  background-color: #bbe3e8;
+}
+
+h2 {
+  font-family: "Lemon Milk", sans-serif;
+  font-weight: lighter;
+  font-variant: small-caps;
+  background-color: #bbe3e8
+}
+
+p {
+  font-family: "Proxima Nova", sans-serif;
+}
+
+@media (max-width: 900px) {
+
+    .flexbox-about{
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.5;
+
+    }
+
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      align-items: center;
+      text-align: center;
+    }
+
+    .component {
+    padding: 0px;
+    align-items: center;
+    }
+
+    .component img{
+      margin-right: 50px;
+      width: 75%;
+      align-items: center;
+    }
+
+    .image{
+      padding: 50px;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    p{
+      font-family: "Proxima Nova", sans-serif;
+      font-weight: lighter;
+      font-size: 12pt;
+    }
+  }
+
+  @media (min-width: 901px) {
+
+
+      p{
+        font-family: "Proxima Nova", sans-serif;
+        font-weight: lighter;
+        font-size: 12pt;
+      }
+    }
