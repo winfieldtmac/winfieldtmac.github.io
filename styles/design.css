@@ -1,8 +1,10 @@
+
 body {
   background-color: white;
 }
 
 .navbar {
+  min-width: 500px;
   font-size: 0.8rem;
   display: flex;
   justify-content: center;
@@ -12,26 +14,34 @@ body {
 }
 
 .flexbox-home {
-  max-width: 960px;
+  max-width: 900px;
   margin: auto;
   line-height: 1.5;
 }
 
-.flexbox-about {
-  max-width: 1920px;
+.flexbox-about{
+  max-width: 1600px;
   margin: auto;
   line-height: 1.5;
 }
+.flex-container {
+  display: flex;
+  margin: auto;
+  padding-bottom: 8rem;
+
+}
+
+.image{
+      padding: 50px;
+      align-items: center;
+      flex-direction: column;
+    }
+
 
 .flexbox-project{
   max-width: 1280px;
   margin: auto;
   line-height: 1.5;
-}
-
-.flex-container {
-  display: flex;
-  margin: auto;
 }
 
 .component {
@@ -42,49 +52,15 @@ body {
   flex: 2;
   flex-direction: row;
   align-items: center;
-  float: left;
 }
 
 .main p{
   flex: 3;
 }
 
-.icon{
-  flex:2;
-  float: right;
-}
-
-.ithaca {
-  flex:1;
-}
-
-.vegas{
-  flex:4;
-}
-
-.hobbies{
-  flex:3;
-}
-
-.contact{
-  flex:3;
-}
-
-.lv{
-  align-items: center;
-}
-
-.lv cite{
-  white-space:nowrap;
-}
-
-.meganium{
-  align-items: center;
-}
-
 li {
   display: inline-block;
-  margin: 10px;
+  margin: 5px;
   padding: 5px;
   text-align: left;
   color: black;
@@ -100,7 +76,7 @@ li a {
 }
 
 a:hover {
-  color:#03444d;
+  color:#034d1c;
 
 }
 
@@ -109,32 +85,71 @@ h1 {
   color: black;
   margin: 0px;
   font-family: "Lemon Milk", sans-serif;
-  font-weight: lighter;
+  font-weight: bold;
   font-variant: small-caps;
-  background-color: #e0f0e3;
+  background-color: #cbe8bb;
 }
 
 h2 {
   font-family: "Lemon Milk", sans-serif;
+  font-weight: bold;
+  font-variant: small-caps;
+  background-color: #cbe8bb;
+  opacity: 100%
+}
+
+h3 {
+  font-family: "Lemon Milk", sans-serif;
   font-weight: lighter;
   font-variant: small-caps;
-  background-color: #e0f0e3;
+  background-color: #cbe8bb;
 }
 
 p {
+  z-index: 999;
   font-family: "Proxima Nova", sans-serif;
 }
+
+.component img{
+    opacity: 100%;
+    width:15rem;
+    align-items: center;
+    position: relative;
+  }
+
+#myVideo {
+  opacity: 40%;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  object-fit: cover;
+  z-index: -100;
+  overflow: hidden;
+  margin-bottom: -1600px;
+}
+
+
 
 @media (max-width: 900px) {
 
     .flexbox-about{
+      min-width: 500px;
       max-width: 900px;
       margin: auto;
       line-height: 1.5;
 
     }
+    .flexbox-home {
+      min-width: 500px;
+      max-width: 500px;
+      margin: auto;
+      line-height: 1.5;
+    }
 
     .flex-container {
+      min-width: 500px;
+      max-width: 960px;
       display: flex;
       flex-direction: column;
       margin: auto;
@@ -163,14 +178,16 @@ p {
       font-weight: lighter;
       font-size: 12pt;
     }
-  }
 
-  @media (min-width: 901px) {
-
-
-      p{
-        font-family: "Proxima Nova", sans-serif;
-        font-weight: lighter;
-        font-size: 12pt;
-      }
+    #myVideo {
+      opacity: 25%;
+      position: relative;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      object-fit: cover;
+      z-index: -100;
+      overflow: hidden;
+      margin-bottom: -900px;
     }
+  }
