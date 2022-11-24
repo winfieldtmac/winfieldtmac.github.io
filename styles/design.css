@@ -4,7 +4,10 @@ body {
 }
 
 .navbar {
+<<<<<<< HEAD
   min-width: 500px;
+=======
+>>>>>>> 80a4850292d5b1ff7fabec17603cc4e7c5f173d3
   font-size: 0.8rem;
   display: flex;
   justify-content: center;
@@ -52,6 +55,7 @@ body {
   flex: 2;
   flex-direction: row;
   align-items: center;
+  float: left;
 }
 
 .main p{
@@ -76,7 +80,11 @@ li a {
 }
 
 a:hover {
+<<<<<<< HEAD
   color:#034d1c;
+=======
+  color:#03444d;
+>>>>>>> 80a4850292d5b1ff7fabec17603cc4e7c5f173d3
 
 }
 
