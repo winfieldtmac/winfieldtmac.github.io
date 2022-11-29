@@ -1,6 +1,5 @@
 
 body {
-
 }
 
 video {
@@ -19,6 +18,12 @@ nav {
 
 h1 {
   font-family: "Lemon Milk", sans-serif;
+  background-color: #e4fde1;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 li {
@@ -43,6 +48,18 @@ a:hover {
 }
 
 div {
+  width: 1280px;
+  display: flex;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+.flexbox {
+  vertical-align: top;
+}
+
+.fauna {
   width: 1600px;
   display: flex;
   margin: auto;
@@ -55,22 +72,101 @@ div img {
 
 h2 span{
   font-family: "Comfortaa", sans-serif;
-  background-color: #e7f9d7;
+  background-color: #e4fde1;
   color:black;
   font-weight: bolder;
+  padding-bottom: 0px;
+}
+
+h3 span{
+  font-family: "Comfortaa", sans-serif;
+  color: black;
+  font-style: italic;
 }
 
 .text{
+  width:1280px;
+  height: 800px;
   display:flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  margin-bottom: 100px;
 }
 
-.text pleco {
+.home{
+  width:1280px;
+  height: 500px;
+  display:flex;
+  flex-direction: column;
   align-items: center;
-  align-self: center;
+  justify-content: center;
+  vertical-align: top;
+  margin-bottom: 110px;
+}
+
+.home p{
+  width: 640px;
+  height: 300px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 100px;
+}
+
+.text p{
+  width: 640px;
+  height: 300px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 100px;
+}
+
+.tank {
+  display: block;
+  margin: 0 auto;
+}
+
+.a li{
+  display: list-item;
+  list-style-type: circle;
+  align-items: baseline;
+  text-align: left;
+  font-family: "Comfortaa", sans-serif;
 }
 
 p {
   font-family: "Comfortaa", sans-serif;
   line-height: 2.0;
+}
+
+#hand {
+  box-shadow: none;
+}
+
+.inspiration{
+  width:1280px;
+  height: 500px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.final {
+  width:1280px;
+  height: 200px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+
+.vertical {
+  margin-bottom: 10px;
 }
